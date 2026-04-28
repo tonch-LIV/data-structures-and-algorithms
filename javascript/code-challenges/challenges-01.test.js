@@ -48,6 +48,13 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 
 const allUpperCase = (arr) => {
   // Solution code here...
+  const strings = [];
+
+  arr.forEach(value => {
+    strings.push(value.toUpperCase());
+  });
+
+  return strings;
 };
 
 /* ------------------------------------------------------------------------------------------------
