@@ -160,7 +160,22 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
+  let flavor = [];
+
+  arr.forEach(num => {
+    if (num % 3 === 0 && num % 5 === 0) {
+      flavor.push('Fizz Buzz');
+    } else if (num % 3 === 0) {
+      flavor.push('Fizz');
+    } else if (num % 5 === 0) {
+      flavor.push('Buzz');
+    } else {
+      flavor.push(num);
+    }
+  });
+  return flavor;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
