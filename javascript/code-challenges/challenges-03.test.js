@@ -24,8 +24,8 @@ For example, typeNum([1, 'bob' ,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const typeNum = (arr) => {
-  return arr.filter((item) => {
-    return typeof item === "number";
+  return arr.filter((data) => {
+    return typeof data === "number";
   });
 };
 
@@ -48,9 +48,10 @@ For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 ------------------------------------------------------------------------------------------------ */
 
 const containsAnd = (arr) => {
-  return arr.filter((item) => {
 
-  })
+  return arr.filter((item) => {
+    return item.includes("and");
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
