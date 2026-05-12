@@ -28,8 +28,13 @@ Prove that the original people array is unchanged
 ------------------------------------------------------------------------------------------------ */
 
 const addPeople = (arr) => {
-  // Solution code here...
+  let newPeople = ['Odie', ...arr, 'Garfield']
+  console.log(newPeople);
+  
+  return newPeople;
 };
+
+console.log(people)
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
