@@ -75,7 +75,17 @@ Ensure that the original people array and stuff objects are unchanged
 ------------------------------------------------------------------------------------------------ */
 
 const newState = (arr, obj) => {
-  // Solution code here...
+  const stateTwo = {
+    people: [...arr],
+    stuff: {
+      ...obj,
+      toys: obj.toys + 1,
+      toothbrush: 'brand new',
+      cars: [...obj.cars, 'Ford']
+    },    
+  };
+
+  return stateTwo;
 };
 
 
