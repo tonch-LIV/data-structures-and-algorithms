@@ -23,6 +23,13 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
+  let results = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    results.push(callback(arr[i]));
+  };
+
+  return results;
 };
 
 /* ------------------------------------------------------------------------------------------------
