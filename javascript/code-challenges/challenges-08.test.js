@@ -30,6 +30,7 @@ const sortStarWarsCharacters = (starWarsArr) => {
   return starWarsArr;
 };
 
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -38,6 +39,8 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
+  const displaced = arr.splice(idx, 3)
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
