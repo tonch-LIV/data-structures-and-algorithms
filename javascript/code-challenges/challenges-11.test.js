@@ -77,6 +77,14 @@ For example, 'abcdefg' returns 'bdf'
 
 const onlyOddChars = (str) => {
   // Solution code here...
+  let results = "";
+
+  for (let i = 0; i < str.length; i++) {
+    if (i % 2 === 1) {
+      results = results + str[i]; 
+    }
+  }
+  return results;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,6 +95,7 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
+  return arr.every(word => word.includes(":)"));
 };
 
 /* ------------------------------------------------------------------------------------------------
