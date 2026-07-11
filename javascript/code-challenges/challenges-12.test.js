@@ -39,6 +39,9 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
+  return input.reduce((total, innerArray) => {
+    return total + innerArray.filter(number => number === target).length;
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
