@@ -20,7 +20,12 @@ Becomes:
 
 function transformToLis(obj){
   // Solution code here...
-}
+  const entries = Object.entries(obj);
+  
+  return entries.map(pair => {
+    return `<li>${pair[0]}: ${pair[1]}</li>`;
+  });
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
