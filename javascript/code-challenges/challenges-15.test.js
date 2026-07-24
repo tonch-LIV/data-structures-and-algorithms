@@ -12,7 +12,8 @@ Write a function named screenForNames that takes in an array of strings and uses
 
 const screenForNames = (arr) => {
   // Solution code here...
-}
+  return arr.filter(name => name.match(/^(Mr\.|Mrs\.|Ms\.|Dr\.) [A-Za-z]+( [A-Za-z]+)*$/));
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -24,6 +25,9 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 
 const toTitleCase = (arr) => {
   // Solution code here...
+  return arr.map(word => {
+    return word.slice(0, 1).toUpperCase() + word.slice(1);
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -99,6 +103,20 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
+  if (arr.length === 0) {
+    return '';
+  }
+
+  const lukeMass = Number(arr[0].mass);
+
+  return arr
+    .filter(character => {
+      return Number(character.mass) > lukeMass;
+    })
+    .map(character => {
+      return character.name;
+    })
+    .join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -117,6 +135,12 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
+  return arr.sort((a, b) => {
+    if (property === "price") {
+      return a.price - b.price;
+    }
+    return a.name.localeCompare(b.name);
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -133,6 +157,7 @@ https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
   // Solution code here...
+  return /^https:\/\/.+$/.test(url);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -156,6 +181,31 @@ Here is a sample board:
 
 const detectTicTacToeWin = (board) => {
   // Solution code here...
+  const helpCheck = (row1, col1, row2, col2, row3, col3) => {
+    const value = board[row1][col1];
+    
+    return (
+      value !== '' &&
+      value === board[row2][col2] &&
+      value === board[row3][col3]
+    );
+  };
+
+  return (
+    // rows
+    helpCheck(0, 0, 0, 1, 0, 2) ||
+    helpCheck(1, 0, 1, 1, 1, 2) ||
+    helpCheck(2, 0, 2, 1, 2, 2) ||
+
+    // columns
+    helpCheck(0, 0, 1, 0, 2, 0) ||
+    helpCheck(0, 1, 1, 1, 2, 1) ||
+    helpCheck(0, 2, 1, 2, 2, 2) ||
+
+    // diagonals
+    helpCheck(0, 0, 1, 1, 2, 2) ||
+    helpCheck(0, 2, 1, 1, 2, 0)
+  );
 };
 
 /* ------------------------------------------------------------------------------------------------
