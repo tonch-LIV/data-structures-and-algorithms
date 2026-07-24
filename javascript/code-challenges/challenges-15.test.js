@@ -181,6 +181,31 @@ Here is a sample board:
 
 const detectTicTacToeWin = (board) => {
   // Solution code here...
+  const helpCheck = (row1, col1, row2, col2, row3, col3) => {
+    const value = board[row1][col1];
+    
+    return (
+      value !== '' &&
+      value === board[row2][col2] &&
+      value === board[row3][col3]
+    );
+  };
+
+  return (
+    // rows
+    helpCheck(0, 0, 0, 1, 0, 2) ||
+    helpCheck(1, 0, 1, 1, 1, 2) ||
+    helpCheck(2, 0, 2, 1, 2, 2) ||
+
+    // columns
+    helpCheck(0, 0, 1, 0, 2, 0) ||
+    helpCheck(0, 1, 1, 1, 2, 1) ||
+    helpCheck(0, 2, 1, 2, 2, 2) ||
+
+    // diagonals
+    helpCheck(0, 0, 1, 1, 2, 2) ||
+    helpCheck(0, 2, 1, 1, 2, 0)
+  );
 };
 
 /* ------------------------------------------------------------------------------------------------
