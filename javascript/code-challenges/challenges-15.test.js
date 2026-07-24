@@ -103,6 +103,20 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
+  if (arr.length === 0) {
+    return '';
+  }
+
+  const lukeMass = Number(arr[0].mass);
+
+  return arr
+    .filter(character => {
+      return Number(character.mass) > lukeMass;
+    })
+    .map(character => {
+      return character.name;
+    })
+    .join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
