@@ -6,6 +6,7 @@ Write a function called `reverseArray` that takes an array as an argument and re
 ## Whiteboard Process
 
 ![Whiteboard Process](/401/img/401_challenge01.png)
+[figma](https://www.figma.com/board/Kekky34KKDZi9tq2yD3Ahp/challenge01?node-id=0-1&t=AxNPMNHCi5H6cBTA-1)
 
 ## Approach & Efficiency
 
