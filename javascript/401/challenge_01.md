@@ -1,6 +1,5 @@
-# Challenge Title
+# ***reverseArray***  
 
-***reverseArray***  
 Write a function called `reverseArray` that takes an array as an argument and returns a new array with the elements in reversed order without using a built-in reversing method.
 
 ## Whiteboard Process
@@ -46,15 +45,15 @@ function reverseArray(array) {
 
 <!-- CHECKLIST: Whiteboard Process -->
 
-- [ ] Top-level README “Table of Contents” is updated
-- [ ] README for this challenge is complete
-  - [ ] Summary, Description, Approach & Efficiency, Solution
-  - [ ] Picture of whiteboard
-  - [ ] [Link to code](#solution)
-- [ ] Feature tasks for this challenge are completed
-- [ ] Unit tests written and passing
-  - [ ] “Happy Path” - Expected outcome
-  - [ ] Expected failure
-  - [ ] Edge Case (if applicable/obvious)
+- [x] Top-level README “Table of Contents” is updated
+- [x] README for this challenge is complete
+  - [x] Summary, Description, Approach & Efficiency, Solution
+  - [x] Picture of whiteboard
+  - [x] [Link to code](#solution)
+- [x] Feature tasks for this challenge are completed
+- [x] Unit tests written and passing
+  - [x] “Happy Path” - Expected outcome
+  - [x] Expected failure
+  - [x] Edge Case (if applicable/obvious)
 
 <!----------------------------------------------------------------------------->

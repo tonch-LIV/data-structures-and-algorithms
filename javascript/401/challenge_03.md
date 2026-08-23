@@ -4,7 +4,8 @@
 
 ## Whiteboard Process
 
-![Whiteboard Process ](img/)
+![Whiteboard Process ](img/)  
+[figma]()
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -13,9 +14,9 @@
 
 ### **The Big-O**
 
-*Time Complexity:*
+**Time Complexity:**
 
-*Space Complexity:*
+**Space Complexity:**
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
