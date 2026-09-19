@@ -3,7 +3,8 @@
 ## Whiteboard Process
 
 ![Whiteboard Process ](img/401_challenge05.png)  
-[figma](https://www.figma.com/board/LDskANtmodB3luDygqaDPt/challenge05_linkedList-singly-?node-id=0-1&t=1PFqMVNo5s5kugjU-1)
+
+### [figma](https://www.figma.com/board/LDskANtmodB3luDygqaDPt/challenge05_linkedList-singly-?node-id=0-1&t=1PFqMVNo5s5kugjU-1)
 
 ## Approach & Efficiency
 

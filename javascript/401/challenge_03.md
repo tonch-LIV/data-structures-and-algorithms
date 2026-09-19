@@ -5,7 +5,8 @@ Write a function called `BinarySearch` that takes a *sorted array* and a *search
 ## Whiteboard Process
 
 ![Whiteboard Process ](img/401_challenge03.png)  
-[figma](https://www.figma.com/board/oAth5LuBVirazyAltvOAHE/challenge03_binarySearch?node-id=6842-159&t=kL5kmqfcDVywpo42-1)
+
+### [figma](https://www.figma.com/board/oAth5LuBVirazyAltvOAHE/challenge03_binarySearch?node-id=6842-159&t=kL5kmqfcDVywpo42-1)
 
 ## Approach & Efficiency
 

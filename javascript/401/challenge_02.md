@@ -5,7 +5,8 @@ Write a function called **insertShiftArray** which takes in an *array* and a *va
 ## Whiteboard Process
 
 ![Whiteboard Process ](img/401_challenge02.png)  
-[figma](https://www.figma.com/board/xwWOnbQgHeWeuhonZnCfZE/challenge02?node-id=0-1&t=zooAeI8561jgKBwc-1)
+
+### [figma](https://www.figma.com/board/xwWOnbQgHeWeuhonZnCfZE/challenge02?node-id=0-1&t=zooAeI8561jgKBwc-1)
 
 ## Approach & Efficiency
 

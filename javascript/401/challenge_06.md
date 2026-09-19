@@ -4,7 +4,8 @@
 
 ![Whiteboard Process ](img/401_challenge06.png)  
 (* Verify got cut off, but better viewed through live link below)  
-[figma](https://www.figma.com/board/cCx0vFkGVNbxeWFf83By3o/challenge_06_linked-list-insertions?node-id=6844-79&t=tAs9vHDK3UPv6SzP-1)
+
+### [figma](https://www.figma.com/board/cCx0vFkGVNbxeWFf83By3o/challenge_06_linked-list-insertions?node-id=6844-79&t=tAs9vHDK3UPv6SzP-1)
 
 ## Approach & Efficiency
 
