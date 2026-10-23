@@ -29,7 +29,7 @@ If a pair does not match, the function returns `false`. After processing the str
 
 |Complexity|Big(O)|
 |---|---|
-|Time|O(1)|
+|Time|O(n)|
 |Space|O(n)|
 
 **Time Complexity:**  
