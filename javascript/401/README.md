@@ -4,7 +4,7 @@
 |------------------------------------------------|-------------------------------------------|----------------------------------------|
 | - [1 - reverseArray](challenge_01.md)          | - [16 - treeMax](challenge_16.md)         | - [31 - ]()      |
 | - [2 - insertShiftArr](challenge_02.md)        | - [17 - Breadth-first](challenge_17.md)   | - [32 - ]()      |
-| - [3 - BinarySearch](challenge_03.md)          | - [18 - ](challenge_18.md)         | - [33 - ]()      |
+| - [3 - BinarySearch](challenge_03.md)          | - [18 - treeFizzBuzz](challenge_18.md)    | - [33 - ]()      |
 | - [4 - ]()                                     | - [19 - ]()                | - [34 - ]()      |
 | - [5 - LinkedList class](challenge_05)         | - [20 - ]()         | - [35 - ]()      |
 | - [6 - LList - insertion](challenge_06.md)     | - [21 - ]()         | - [36 - ]()      |
