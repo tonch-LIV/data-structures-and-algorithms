@@ -7,7 +7,7 @@ Sort the values of an array in ascending order using `MergeSort()`.
 `[8, 4, 23, 42, 16, 15]` becomes   
 `[4, 8, 15, 16, 23, 42]`.
 
-The function returns a new array, does not modify the original array, preserves duplicates, and handles empty and single-element arrays through the test case shown in the whiteboard.
+The function updates and returns the original array, preserves duplicates, and handles empty and single-element arrays through the test case shown in the whiteboard.
 
 ![Whiteboard Process ](img/401_challenge27.png)  
 
